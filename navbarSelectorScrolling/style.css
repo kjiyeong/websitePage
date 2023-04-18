@@ -1,0 +1,16 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.section:nth-child(odd) {
+    background: #af0bc5;
+}
+
+.section:nth-child(even) {
+    background: #f3e419;
+}
